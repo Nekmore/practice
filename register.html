@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolTime</title>
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-red p-t-180">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-2">
+                <div class="card-body">
+                    <h2 class="title">Регистрация</h2>
+                    <form action="reg.php" method="POST">
+                        <div class="input-group">
+                            <label for="name">
+                                <input class="input--style-2" type="text" placeholder="ФИО" name="fio"  id="fio" required>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="login">
+                                <input class="input--style-2" type="text" placeholder="Логин" name="login" id="login" minlength="5" required>
+                                <span class="error" aria-live="polite"></span>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="login">
+                                <input class="input--style-2" type="text" placeholder="Email" name="email" id="email" minlength="5" required>
+                                <span class="error" aria-live="polite"></span>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="pass">
+                                <input class="input--style-2" type="password" placeholder="Пароль" name="pass" id="pass" required>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="res_pass">
+                                <input class="input--style-2" type="password" placeholder="Повторите пароль" name="res_pass" id="res_pass" required>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="age">
+                                <input class="input--style-2" id="age" type="number" placeholder="Возраст" name="age" min="1" required>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="rules" class="input-checkbox">
+                                <input class="input--style-2" type="checkbox" name="rules" id="rules" required>
+                                Я согласен с правилами сайта
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label for="covid" class="input-checkbox">
+                                <input class="input--style-2" type="checkbox" name="covid" id="covid" required>
+                                Я согласен соблюдать правила противодействия новой коронавирусной инфекции Covid-19
+                            </label>
+                        </div>
+                        <div class="p-t-30">
+                            <input class="btn btn--radius btn--green" type="submit" value="Далее">
+                        </div>
+                    </form>
+
+                    <div class="links">
+                        <a href="#">Правила  посещения</a>
+                        <a href="#">Актуальные инструкции по противодействию новой короновирусной инфекции Covid-19</a>
+                        <span>Уже есть аккаунт? <a href="login.html">Вход</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

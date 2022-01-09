@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolTime</title>
+    <link href="css/main.css" rel="stylesheet" media="all">
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <div class="page-wrapper bg-red p-t-180">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-2">
+                <div class="card-body">
+                    <h2 class="title">Вход</h2>
+                    <form action="log.php" method="POST" novalidate>
+                        <div class="input-group">
+                            <input class="input--style-2" type="text" placeholder="Логин" name="login" required minlength="6">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="password" placeholder="Пароль" name="pass" required minlength="6">
+                        </div>
+                        <div class="p-t-30">
+                            <button class="btn btn--radius btn--green" type="submit">Далее</button>
+                        </div>
+                    </form>
+                    <div class="links">
+                        <a href="#">Правила  посещения</a>
+                        <a href="#">Актуальные инструкции по противодействию новой короновирусной инфекции Covid-19</a>
+                        <span>Еще нету аккаунта? <a href="register.html">Регистрация</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

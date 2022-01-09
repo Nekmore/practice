@@ -1,0 +1,198 @@
+html {
+
+  box-sizing: border-box;
+  background-image: url("../img/pics/bg.png");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+
+.page-wrapper {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+
+.p-t-180 {
+  padding-top: 180px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 960px;
+}
+
+.wrappe{
+  max-width: 680px;
+}
+
+
+.btn {
+  line-height: 40px;
+  padding: 0 25px;
+  color: #fff;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.btn--green {
+  background: #1E90FF;
+}
+
+
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+input:invalid {
+  border-bottom: 1px solid #c21111;
+}
+
+input:valid {
+  border-bottom: 1px solid #13b028;
+}
+
+input:invalid:required {
+  background: #fafafa;
+}
+
+
+
+.input-group {
+  margin-bottom: 32px;
+
+}
+
+
+.input--style-2 {
+  padding: 9px 0;
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-checkbox {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  grid-gap: 12px;
+}
+
+
+.links {
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  margin-bottom: 8px;
+}
+
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-2 {
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: table;
+}
+
+
+.card-2 .card-body {
+  display: table-cell;
+  padding: 80px 90px;
+}
+
+
+
+.event {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event span {
+  font-size: 16px;
+}
